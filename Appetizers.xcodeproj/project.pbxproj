@@ -10,6 +10,18 @@
 		4C2BB5B7290D172100DAB845 /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BB5B6290D172100DAB845 /* ServerConfig.swift */; };
 		4C2BB5BF290D608F00DAB845 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BB5BE290D608F00DAB845 /* HomeView.swift */; };
 		4C2BB5C1290D60A200DAB845 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BB5C0290D60A200DAB845 /* AccountView.swift */; };
+		4CB46C60290E665700BEEE06 /* AuthFeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C54290E665700BEEE06 /* AuthFeeds.swift */; };
+		4CB46C61290E665700BEEE06 /* AuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C55290E665700BEEE06 /* AuthClient.swift */; };
+		4CB46C62290E665700BEEE06 /* ServicesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C57290E665700BEEE06 /* ServicesClient.swift */; };
+		4CB46C63290E665700BEEE06 /* ServicesFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C58290E665700BEEE06 /* ServicesFeed.swift */; };
+		4CB46C64290E665700BEEE06 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C5A290E665700BEEE06 /* EndPoints.swift */; };
+		4CB46C65290E665700BEEE06 /* APiErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C5B290E665700BEEE06 /* APiErrors.swift */; };
+		4CB46C66290E665700BEEE06 /* APiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C5C290E665700BEEE06 /* APiClient.swift */; };
+		4CB46C67290E665700BEEE06 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C5D290E665700BEEE06 /* Results.swift */; };
+		4CB46C68290E665700BEEE06 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C5E290E665700BEEE06 /* HTTPMethods.swift */; };
+		4CB46C69290E665700BEEE06 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C5F290E665700BEEE06 /* HTTPHeaders.swift */; };
+		4CB46C6D290E66A800BEEE06 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C6B290E66A800BEEE06 /* AppManager.swift */; };
+		4CB46C6E290E66A800BEEE06 /* Utitlites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB46C6C290E66A800BEEE06 /* Utitlites.swift */; };
 		4CF2BC52290D10E500A11FE6 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2BC51290D10E500A11FE6 /* AppetizersApp.swift */; };
 		4CF2BC54290D10E500A11FE6 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2BC53290D10E500A11FE6 /* TabBarView.swift */; };
 		4CF2BC56290D10E700A11FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2BC55290D10E700A11FE6 /* Assets.xcassets */; };
@@ -48,6 +60,18 @@
 		4C2BB5BD290D1B4400DAB845 /* Appetizers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Appetizers.entitlements; sourceTree = "<group>"; };
 		4C2BB5BE290D608F00DAB845 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4C2BB5C0290D60A200DAB845 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		4CB46C54290E665700BEEE06 /* AuthFeeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthFeeds.swift; sourceTree = "<group>"; };
+		4CB46C55290E665700BEEE06 /* AuthClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthClient.swift; sourceTree = "<group>"; };
+		4CB46C57290E665700BEEE06 /* ServicesClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesClient.swift; sourceTree = "<group>"; };
+		4CB46C58290E665700BEEE06 /* ServicesFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesFeed.swift; sourceTree = "<group>"; };
+		4CB46C5A290E665700BEEE06 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		4CB46C5B290E665700BEEE06 /* APiErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APiErrors.swift; sourceTree = "<group>"; };
+		4CB46C5C290E665700BEEE06 /* APiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APiClient.swift; sourceTree = "<group>"; };
+		4CB46C5D290E665700BEEE06 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		4CB46C5E290E665700BEEE06 /* HTTPMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
+		4CB46C5F290E665700BEEE06 /* HTTPHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		4CB46C6B290E66A800BEEE06 /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		4CB46C6C290E66A800BEEE06 /* Utitlites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utitlites.swift; sourceTree = "<group>"; };
 		4CF2BC4E290D10E500A11FE6 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF2BC51290D10E500A11FE6 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		4CF2BC53290D10E500A11FE6 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -99,6 +123,106 @@
 			path = Configurations;
 			sourceTree = "<group>";
 		};
+		4CB46C4C290E65FB00BEEE06 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2BC51290D10E500A11FE6 /* AppetizersApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4CB46C4D290E660700BEEE06 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4CB46C4E290E661800BEEE06 /* TabView */,
+				4CB46C4F290E662500BEEE06 /* HomeView */,
+				4CB46C50290E662F00BEEE06 /* AccountView */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		4CB46C4E290E661800BEEE06 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2BC53290D10E500A11FE6 /* TabBarView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		4CB46C4F290E662500BEEE06 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BB5BE290D608F00DAB845 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		4CB46C50290E662F00BEEE06 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BB5C0290D60A200DAB845 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		4CB46C51290E665700BEEE06 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4CB46C52290E665700BEEE06 /* APis */,
+				4CB46C59290E665700BEEE06 /* Core */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4CB46C52290E665700BEEE06 /* APis */ = {
+			isa = PBXGroup;
+			children = (
+				4CB46C53290E665700BEEE06 /* Auth */,
+				4CB46C56290E665700BEEE06 /* ServicesFeed */,
+			);
+			path = APis;
+			sourceTree = "<group>";
+		};
+		4CB46C53290E665700BEEE06 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4CB46C54290E665700BEEE06 /* AuthFeeds.swift */,
+				4CB46C55290E665700BEEE06 /* AuthClient.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		4CB46C56290E665700BEEE06 /* ServicesFeed */ = {
+			isa = PBXGroup;
+			children = (
+				4CB46C57290E665700BEEE06 /* ServicesClient.swift */,
+				4CB46C58290E665700BEEE06 /* ServicesFeed.swift */,
+			);
+			path = ServicesFeed;
+			sourceTree = "<group>";
+		};
+		4CB46C59290E665700BEEE06 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4CB46C5A290E665700BEEE06 /* EndPoints.swift */,
+				4CB46C5B290E665700BEEE06 /* APiErrors.swift */,
+				4CB46C5C290E665700BEEE06 /* APiClient.swift */,
+				4CB46C5D290E665700BEEE06 /* Results.swift */,
+				4CB46C5E290E665700BEEE06 /* HTTPMethods.swift */,
+				4CB46C5F290E665700BEEE06 /* HTTPHeaders.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4CB46C6A290E66A800BEEE06 /* Utilit */ = {
+			isa = PBXGroup;
+			children = (
+				4CB46C6B290E66A800BEEE06 /* AppManager.swift */,
+				4CB46C6C290E66A800BEEE06 /* Utitlites.swift */,
+			);
+			path = Utilit;
+			sourceTree = "<group>";
+		};
 		4CF2BC45290D10E500A11FE6 = {
 			isa = PBXGroup;
 			children = (
@@ -124,15 +248,15 @@
 			children = (
 				4C2BB5BD290D1B4400DAB845 /* Appetizers.entitlements */,
 				4C2BB5BC290D18B600DAB845 /* Info.plist */,
+				4CB46C6A290E66A800BEEE06 /* Utilit */,
+				4CB46C51290E665700BEEE06 /* Networking */,
 				4C2BB5B5290D170200DAB845 /* Configurations */,
-				4CF2BC51290D10E500A11FE6 /* AppetizersApp.swift */,
-				4CF2BC53290D10E500A11FE6 /* TabBarView.swift */,
+				4CB46C4C290E65FB00BEEE06 /* App */,
+				4CB46C4D290E660700BEEE06 /* Scene */,
 				4CF2BC55290D10E700A11FE6 /* Assets.xcassets */,
 				4CF2BC5A290D10E700A11FE6 /* Persistence.swift */,
 				4CF2BC5C290D10E700A11FE6 /* Appetizers.xcdatamodeld */,
 				4CF2BC57290D10E700A11FE6 /* Preview Content */,
-				4C2BB5BE290D608F00DAB845 /* HomeView.swift */,
-				4C2BB5C0290D60A200DAB845 /* AccountView.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -292,13 +416,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB46C68290E665700BEEE06 /* HTTPMethods.swift in Sources */,
 				4C2BB5B7290D172100DAB845 /* ServerConfig.swift in Sources */,
+				4CB46C65290E665700BEEE06 /* APiErrors.swift in Sources */,
+				4CB46C61290E665700BEEE06 /* AuthClient.swift in Sources */,
 				4CF2BC5B290D10E700A11FE6 /* Persistence.swift in Sources */,
 				4CF2BC54290D10E500A11FE6 /* TabBarView.swift in Sources */,
+				4CB46C62290E665700BEEE06 /* ServicesClient.swift in Sources */,
+				4CB46C60290E665700BEEE06 /* AuthFeeds.swift in Sources */,
+				4CB46C69290E665700BEEE06 /* HTTPHeaders.swift in Sources */,
 				4C2BB5BF290D608F00DAB845 /* HomeView.swift in Sources */,
 				4C2BB5C1290D60A200DAB845 /* AccountView.swift in Sources */,
+				4CB46C67290E665700BEEE06 /* Results.swift in Sources */,
 				4CF2BC5E290D10E700A11FE6 /* Appetizers.xcdatamodeld in Sources */,
+				4CB46C6E290E66A800BEEE06 /* Utitlites.swift in Sources */,
 				4CF2BC52290D10E500A11FE6 /* AppetizersApp.swift in Sources */,
+				4CB46C64290E665700BEEE06 /* EndPoints.swift in Sources */,
+				4CB46C6D290E66A800BEEE06 /* AppManager.swift in Sources */,
+				4CB46C63290E665700BEEE06 /* ServicesFeed.swift in Sources */,
+				4CB46C66290E665700BEEE06 /* APiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Appetizers/Preview Content\"";
-				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				DEVELOPMENT_TEAM = FD7KN86W7E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Appetizers/Info.plist;
@@ -540,7 +676,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Appetizers/Preview Content\"";
-				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				DEVELOPMENT_TEAM = FD7KN86W7E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Appetizers/Info.plist;
@@ -729,7 +865,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Appetizers/Preview Content\"";
-				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				DEVELOPMENT_TEAM = FD7KN86W7E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Appetizers/Info.plist;
@@ -765,7 +901,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Appetizers/Preview Content\"";
-				DEVELOPMENT_TEAM = 2C4XF58Z9A;
+				DEVELOPMENT_TEAM = FD7KN86W7E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Appetizers/Info.plist;
